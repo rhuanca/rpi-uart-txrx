@@ -12,4 +12,4 @@ set(TX_SOURCE_FILES rpi_uart_tx.c)
 set(RX_SOURCE_FILES rpi_uart_rx.c)
 
 add_executable(uart_tx ${TX_SOURCE_FILES})
-add_executable(uart_rx ${RX_SOURCE_FILES})
+add_executable(uart_rx ${RX_SOURCE_FILES} uart.h uart.c)
